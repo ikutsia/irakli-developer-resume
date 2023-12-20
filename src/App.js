@@ -1,6 +1,6 @@
 /*import logo from "./logo.svg";*/
 import React from "react";
-import { BrowserRouter as Route, Routes } from "react-router-dom";
+import { /*BrowserRouter as*/ Route, Routes } from "react-router-dom";
 import YourComponent from "../src/Components/YourComponent";
 /*import { Link } from "react-router-dom";*/
 import "./App.css";
@@ -10,8 +10,8 @@ import Resume from "../src/Components/Resume";
 import Blog from "../src/Components/Blog";
 import Contact from "../src/Components/Contact";
 import SignIn from "../src/Components/SignIn";
-import AdminDashboard from "../src/Components/AdminDashboard";
-import ProtectedRoute from "../src/Components/ProtectedRoute";
+/*import AdminDashboard from "../src/Components/AdminDashboard";*/
+/*import ProtectedRoute from "../src/Components/ProtectedRoute";*/
 import BabelConfig from "../src/babel.config";
 
 const App = () => {
@@ -25,7 +25,7 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/signin" element={<SignIn />} />
-        <ProtectedRoute path="/admin" element={<AdminDashboard />} />
+        {/* <ProtectedRoute path="/admin" element={<ProtectedRoute />} /> */}
         <Route path="/your-component" element={<YourComponent />} />
         <Route path="babelconfig" element={<BabelConfig />} />
       </Routes>
