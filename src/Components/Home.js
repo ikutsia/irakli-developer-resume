@@ -15,7 +15,7 @@ const Home = () => {
     <div>
       <h1>Welcome to My Website!</h1>
       <p>
-        Hello, I'm Irakli, a passionate Web Developer. Explore my resume and
+        Hello, I&aposm Irakli, a passionate Web Developer. Explore my resume and
         blog to learn more about me.
       </p>
       <Resume />
